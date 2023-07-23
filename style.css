@@ -36,6 +36,9 @@ img {
     margin: 0 auto;
 }
 
+hr {
+    margin-top: 2rem;
+}
 header {
     /* center align text in header  */
     text-align: center;
@@ -62,22 +65,25 @@ nav {
     padding: 1rem;
     margin-top: .5rem;
 }
-ul {
+.no-list-style {
     list-style-type: none;
 }
-li {
+nav li {
     display: inline;
     padding: 1rem;
-    background-color: #023E8A;
+    /* background-color: #023E8A; */
 }
 
 /* a begins here */
 a {
     text-decoration: none;
     font-size: 1.4rem;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 
+nav a {
+    background-color: #023E8A;
+}
 /* a pseudo clases for states  */
 a:link, a:visited {
     color: #00B4D8;
@@ -114,15 +120,20 @@ h2::after {
 
 /* main section here  */
 main ol {
-    list-style-type: lower-alpha;
+    /* list-style-type: lower-alpha; */
+    list-style-type: upper-roman;
 }
 
 main li {
-    display: block;
+    /* display: block; */
     background-color: transparent;
     list-style-position: inside;
+    padding: 0.5rem 10%;
 }
 
+main ul {
+    list-style-type: disc;
+}
 /* contact form styling */
 form {
     text-align: center;
