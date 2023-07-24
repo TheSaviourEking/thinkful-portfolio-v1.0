@@ -7,6 +7,6 @@ A personal portfolio project built as part of **[Thinkful's](https://thinkful.co
 * [Linkedin Profile](https://www.linkedin.com/in/saviour-eking)
 * [Twitter Profile](https://twitter.com/TheSaviourEking)
 
-## Special Thanks
+## Appreciation
 
-My Appreciation goes to **[JennyThinkful](https://github.com/jennythinkful)** , **[jennythedeveloper](https://github.com/jennythedeveloper)** and the rest of my friends at **[Thinkful](https://thinkful.com)** for doing such a great job in making this course so engaging and thought provoking.
+My thanks goes to **[JennyThinkful](https://github.com/jennythinkful)** , **[jennythedeveloper](https://github.com/jennythedeveloper)** and the **[Thinkful](https://thinkful.com)** team for doing such a great job in making this course so engaging and thought provoking.
