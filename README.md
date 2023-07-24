@@ -1,6 +1,10 @@
-# thinkful-portfolio-v1.0
+# thinkful-portfolio-v1.0 
 
 A personal portfolio project built as part of **[Thinkful's](https://thinkful.com)** Prep Course for Engineering Immersion
+
+## Link
+* [live page](https://thesavioureking.github.io/thinkful-portfolio-v1.0)
+* [code](https://github.com/TheSaviourEking/thinkful-portfolio-v1.0)
 
 ## About me
 * [Github Profile](https://github.com/TheSaviourEking)
