@@ -9,4 +9,4 @@ A personal portfolio project built as part of **[Thinkful's](https://thinkful.co
 
 ## Special Thanks
 
-My Appreciation goes to **[JennyThinkful](https://github.com/jennythinkful)** , **[jennythedeveloper](https://github.com/jennythedeveloper)** and the rest of my friends at **[Thinkful](https://thinkful.com)** for doing such a great job in making this course so engaging and thought provoking. 
+My Appreciation goes to **[JennyThinkful](https://github.com/jennythinkful)** , **[jennythedeveloper](https://github.com/jennythedeveloper)** and the rest of my friends at **[Thinkful](https://thinkful.com)** for doing such a great job in making this course so engaging and thought provoking.
