@@ -3,21 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* style resets  */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* change a and h2 tags to uppercase  */
-a, h2 {
-    text-transform: uppercase;
-}
-
+/* add general body style  */
 body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #CAF0F8;
 }
+
+/* logo */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+/* change a and h2 tags to uppercase  */
+a,
+h2 {
+    text-transform: uppercase;
+}
+
+
 
 /*
 *  give default width and height to all images 
@@ -29,70 +41,80 @@ img {
     max-height: 500px;
 }
 
-/* create a rapper utility class  */
+/* create a wrapper utility class  */
 .wrapper {
     width: 80%;
     max-width: 43rem;
     margin: 0 auto;
 }
 
+/* style hr for page dividers  */
 hr {
     margin-top: 2rem;
-}
-header {
-    /* center align text in header  */
-    text-align: center;
-    margin-bottom: 1rem;
-}
-header p {
-    font-size: 1.5rem;
-}
-
-/* header and footer share same padding abd colors (bg)  */
-header, footer {
-    padding: 3rem;
-    background-color: #03045E;
-    color: #90E0EF;
-}
-
-h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 4rem;
-}
-
-/* nave begins here */
-nav {
-    padding: 1rem;
-    margin-top: .5rem;
 }
 
 /* make a list style utility class to use with some list  */
 .no-list-style {
     list-style-type: none;
 }
-nav li {
-    display: inline;
-    padding: 1rem;
-    /* background-color: #023E8A; */
-}
 
-/* a begins here */
+/* general a link styles */
 a {
     text-decoration: none;
     font-size: 1.4rem;
     padding: 1rem;
 }
 
+/* begin page styling here  */
+header {
+    /* center align text in header  */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* header and footer share same padding abd colors (bg)  */
+header,
+footer {
+    padding: 3rem;
+    background-color: #03045E;
+    color: #90E0EF;
+}
+
+
+
+/* nav begins here */
+nav {
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+
+
+nav li {
+    display: inline;
+    padding: 1rem;
+    /* background-color: #023E8A; */
+}
+
+
+
 nav a {
     background-color: #023E8A;
 }
+
 /* a pseudo clases for states  */
-a:link, a:visited {
+a:link,
+a:visited {
     color: #00B4D8;
 }
 
 /* a changes color on hover  */
-a:hover, a:active {
+a:hover,
+a:active {
     /* color: #03045E; */
     color: #023E8A;
     background-color: #0096C7;
@@ -136,17 +158,51 @@ main li {
 main ul {
     list-style-type: disc;
 }
+
+/* article section begins here */
+article {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+article h3 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+article p {
+    padding: 1rem;
+}
+
+article span {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+article a {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-color: #03045E;
+}
+
 /* contact form styling */
 form {
     text-align: center;
     margin: 0 auto;
 }
-input, textarea {
+
+/* make text fields width equal  */
+input,
+textarea {
     width: 30rem;
     margin-left: 1rem;
     padding: 1rem;
-    margin: 1rem ;
+    margin: 1rem;
 }
+
 .message {
     /* display: inline-flex; */
     align-items: center;
@@ -177,14 +233,19 @@ footer {
     color: #48CAE4;
 }
 
-footer li{
+footer li {
     background-color: transparent;
 }
 
 footer p {
     padding: 1rem;
 }
+
 footer a {
     font-size: 1rem;
 }
+
 /* footer ends  */
+
+
+/* page ends  */
